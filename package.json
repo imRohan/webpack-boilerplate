@@ -1,12 +1,12 @@
 {
   "name": "webpack-boilplate",
   "version": "1.0.0",
-  "description": "A boilerplate with webpack for module handling",
+  "description": "A boilerplate with webpack for js module handling and css loading",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Rohan Likhite",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.24.1",
