@@ -1,7 +1,7 @@
 # webpack-boilerplate
-A Boilerplate using Webpack
+### A Boilerplate using Webpack
 ---
-## Build
+### Build
 
 - npm install 
 
