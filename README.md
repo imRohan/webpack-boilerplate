@@ -1,17 +1,10 @@
-# webpack-boilerplate
-### A Boilerplate using Webpack
+# My Webpack Boilerplate
+### A Boilerplate for webpack projects 
+
+Using this for personal projects.
 
 ### Build
 
-- npm install 
+- Install Yarn and run `yarn` 
+- Then run `webpack-dev-server`
 
-or
-
-
-- npm install -g webpack
-- npm install --save-dev babel-loader babel-core babel-preset-es2015
-- npm install --save-dev css-loader style-loader
-
-for dev server (hot reloading)
-
-- npm install webpack-dev-server -g
