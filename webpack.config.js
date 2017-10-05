@@ -1,5 +1,5 @@
 module.exports = {
-  entry: './main.js',
+  entry: './app/js/index.js',
   output: {
     filename: './bundle.js'
   },
@@ -17,7 +17,12 @@ module.exports = {
       {
         test: /\.css$/,
         exclude: /node_modules/,
-        loader: 'style-loader!css-loader',
+        loaders: 'style-loader!css-loader',
+      },
+      {
+        test: /\.scss$/,
+        exclude: /node_modules/,
+        loaders: 'style-loader!css-loader!sass-loader',
       },
     ],
   },
