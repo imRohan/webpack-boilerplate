@@ -1,3 +1,5 @@
+const path = require('path')
+
 module.exports = {
   entry: './app/js/index.js',
   output: {
@@ -26,4 +28,7 @@ module.exports = {
       },
     ],
   },
+  resolve: {
+    modules: [path.resolve(__dirname, "app"), "node_modules"],
+  }
 };
