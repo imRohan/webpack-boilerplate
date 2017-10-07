@@ -26,6 +26,11 @@ module.exports = {
         exclude: /node_modules/,
         loaders: 'style-loader!css-loader!sass-loader',
       },
+      {
+        test: /\.html$/,
+        exclude: /node_modules/,
+        loaders: 'style-loader!html-loader',
+      },
     ],
   },
   resolve: {
