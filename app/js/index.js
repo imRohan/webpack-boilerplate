@@ -1,4 +1,4 @@
-require('../css/main.scss');
+require('css/main.scss');
 
 const string = 'Webpack Boilerplate!';
 
