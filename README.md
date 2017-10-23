@@ -6,5 +6,6 @@ Using this for personal projects.
 ### Build
 
 - Install Yarn and run `yarn` 
-- Then run `webpack-dev-server`
+- Then run `npm run dev`
+- Navigate to `localhost:8080`
 
