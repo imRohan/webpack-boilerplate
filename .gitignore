@@ -21,7 +21,7 @@ coverage
 .nyc_output
 
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
-.grunt
+
 
 # Bower dependency directory (https://bower.io/)
 bower_components
@@ -46,7 +46,7 @@ typings/
 .eslintcache
 
 # Optional REPL history
-.node_repl_history
+.node_repl
 
 # Output of 'npm pack'
 *.tgz
